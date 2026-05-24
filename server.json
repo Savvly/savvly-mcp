@@ -1,0 +1,28 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.savvly/mcp-server",
+  "description": "Savvly Longevity Benefit Fund: product, comparisons, eligibility, and retirement projections.",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/Savvly/savvly-mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://savvly.com",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.savvly.com/mcp"
+    }
+  ],
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@savvly/mcp-server",
+      "version": "1.0.0",
+      "transport": {
+        "type": "stdio"
+      },
+      "runtimeHint": "npx"
+    }
+  ]
+}

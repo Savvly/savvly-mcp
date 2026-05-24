@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "savvly": {
+      "serverUrl": "https://api.savvly.com/mcp"
+    }
+  }
+}
