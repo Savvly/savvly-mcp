@@ -51,16 +51,6 @@ remote MCP can point straight at `https://api.savvly.com/mcp`.
 
 Projection tools emit interactive MCP Apps chart widgets on hosts that support them.
 
-## Configuration
-
-| Env var | Default | Purpose |
-| --- | --- | --- |
-| `ADVISOR_FUNCTIONS_URL` | `https://savvly-estimator.azurewebsites.net` | Projection backend |
-| `ADVISOR_FUNCTIONS_TIMEOUT_MS` | `15000` | Upstream request timeout |
-
-Product / comparison / FAQ / Q&A content is bundled and served offline; projections
-call Savvly's hosted estimator.
-
 ## Links
 
 - Website: https://savvly.com
