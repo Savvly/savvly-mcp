@@ -52,7 +52,7 @@
     {
       "registryType": "mcpb",
       "identifier": "https://github.com/Savvly/savvly-mcp/releases/download/v1.0.26/savvly-mcp-server.mcpb",
-      "fileSha256": "d7199a945db7c0f380d5b13a456d249b35d77a8f104956681277318f42f288bc",
+      "fileSha256": "8d5c0eb212e92a00551f89ae2e24d6f3aa1e04a970e24d328212f563b5ae453d",
       "transport": {
         "type": "stdio"
       }
