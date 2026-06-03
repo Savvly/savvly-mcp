@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "savvly": {
-      "command": "npx",
-      "args": ["-y", "mcp-remote", "https://api.savvly.com/mcp"]
-    }
-  }
-}
