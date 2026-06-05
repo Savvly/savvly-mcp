@@ -7,6 +7,8 @@
 -->
 # Savvly MCP server — `com.savvly/savvly`
 
+[![Smithery](https://smithery.ai/badge/savvly/savvly)](https://smithery.ai/servers/savvly/savvly)
+
 MCP server for the **Savvly Longevity Benefit Fund**: product info, Savvly-vs-alternative
 comparisons, eligibility checks, an audience-tagged Q&A library, and retirement /
 lump-sum / monthly **projections** (with inline MCP Apps chart widgets).
@@ -14,6 +16,15 @@ lump-sum / monthly **projections** (with inline MCP Apps chart widgets).
 Listed on the [MCP Registry](https://registry.modelcontextprotocol.io) as
 `com.savvly/savvly` and published to **five package types plus a hosted remote** — use
 whichever fits your client.
+
+<!-- BEGIN GENERATED: install-buttons (npm run gen:submissions) -->
+### One-click install
+
+[**Add to Cursor**](cursor://anysphere.cursor-deeplink/mcp/install?name=savvly&config=eyJjb21tYW5kIjoibnB4IiwiYXJncyI6WyIteSIsIkBzYXZ2bHkvbWNwLXNlcnZlciJdfQ==) · [**Install in VS Code**](https://insiders.vscode.dev/redirect/mcp/install?name=savvly&config=%7B%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22-y%22%2C%22%40savvly%2Fmcp-server%22%5D%7D)
+
+Both use the npm stdio package (`@savvly/mcp-server`). For the hosted remote, point any
+remote-MCP host at `https://api.savvly.com/mcp`.
+<!-- END GENERATED: install-buttons -->
 
 ## Install
 
