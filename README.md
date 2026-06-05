@@ -7,8 +7,6 @@
 -->
 # Savvly MCP server — `com.savvly/savvly`
 
-[![Smithery](https://smithery.ai/badge/savvly/savvly)](https://smithery.ai/servers/savvly/savvly)
-
 MCP server for the **Savvly Longevity Benefit Fund**: product info, Savvly-vs-alternative
 comparisons, eligibility checks, an audience-tagged Q&A library, and retirement /
 lump-sum / monthly **projections** (with inline MCP Apps chart widgets).
@@ -66,6 +64,7 @@ Projection tools emit interactive MCP Apps chart widgets on hosts that support t
 
 - Website: https://savvly.com
 - Disclosures: https://www.savvly.com/disclosures
+- Smithery (in-browser playground): https://smithery.ai/servers/savvly/savvly
 
 ## License
 
