@@ -7,7 +7,7 @@
 -->
 # Savvly MCP server — `com.savvly/savvly`
 
-MCP server for the **Savvly Longevity Benefit Fund**: product info, Savvly-vs-alternative
+MCP server for **Savvly Longevity Benefit**: product info, Savvly-vs-alternative
 comparisons, eligibility checks, an audience-tagged Q&A library, and retirement /
 lump-sum / monthly **projections** (with inline MCP Apps chart widgets).
 
