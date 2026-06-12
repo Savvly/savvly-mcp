@@ -1,0 +1,16 @@
+{
+  "name": "Savvly",
+  "version": "1.0.40",
+  "description": "Savvly Longevity Benefit: product, comparisons, eligibility, and retirement projections.",
+  "author": {
+    "name": "Savvly",
+    "url": "https://savvly.com"
+  },
+  "keywords": [
+    "finance",
+    "retirement",
+    "longevity",
+    "investment",
+    "mcp"
+  ]
+}
