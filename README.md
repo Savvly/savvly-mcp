@@ -7,7 +7,9 @@
 -->
 # Savvly MCP server — `com.savvly/savvly`
 
-The Savvly MCP server lets financial advisors, planning tools, and AI agents query fund data, model projections, and compare against alternative retirement products directly, in real time, in any conversation, and without any manual lookup.
+Savvly offers longevity-linked, SEC-registered investment products — built on the Savvly 80+ fund — that invests pooled contributions in a low-cost S&P 500 ETF and makes milestone cash payouts at ages 80, 85, 90, and 95, turning a longer life into a financial reward rather than a risk.
+
+Savvly MCP lets financial advisors, planning tools, and AI agents query fund data, model projections, and compare against alternative retirement products directly, in real time, in any conversation, and without any manual lookup.
 
 Listed on the [MCP Registry](https://registry.modelcontextprotocol.io) as
 `com.savvly/savvly` and published to **five package types plus a hosted remote** — use
