@@ -1,6 +1,7 @@
 {
   "mcpServers": {
     "savvly": {
+      "type": "http",
       "url": "https://api.savvly.com/mcp"
     }
   }

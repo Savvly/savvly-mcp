@@ -1,0 +1,26 @@
+{
+  "name": "savvly",
+  "owner": {
+    "name": "Savvly",
+    "email": "brian@savvly.com"
+  },
+  "description": "Savvly MCP: query fund data, model projections, and compare against alternative retirement products.",
+  "plugins": [
+    {
+      "name": "savvly",
+      "source": "./plugin",
+      "description": "Explore Savvly MCP: retirement projections, eligibility, comparisons, and FAQs for an SEC-registered fund that pairs full market upside with later-life longevity payouts.",
+      "category": "finance",
+      "homepage": "https://savvly.com",
+      "repository": "https://github.com/Savvly/savvly-mcp",
+      "license": "Apache-2.0",
+      "keywords": [
+        "finance",
+        "retirement",
+        "longevity",
+        "investment",
+        "mcp"
+      ]
+    }
+  ]
+}

@@ -1,11 +1,15 @@
 {
-  "name": "Savvly",
+  "name": "savvly",
   "version": "1.0.47",
   "description": "Explore Savvly MCP: retirement projections, eligibility, comparisons, and FAQs for an SEC-registered fund that pairs full market upside with later-life longevity payouts.",
   "author": {
     "name": "Savvly",
+    "email": "brian@savvly.com",
     "url": "https://savvly.com"
   },
+  "homepage": "https://savvly.com",
+  "repository": "https://github.com/Savvly/savvly-mcp",
+  "license": "Apache-2.0",
   "keywords": [
     "finance",
     "retirement",
