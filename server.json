@@ -2,7 +2,7 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "com.savvly/savvly",
   "description": "Savvly Longevity Benefit: product, comparisons, eligibility, and retirement projections.",
-  "version": "1.0.42",
+  "version": "1.0.43",
   "repository": {
     "url": "https://github.com/Savvly/savvly-mcp",
     "source": "github"
@@ -18,7 +18,7 @@
     {
       "registryType": "npm",
       "identifier": "@savvly/mcp-server",
-      "version": "1.0.42",
+      "version": "1.0.43",
       "transport": {
         "type": "stdio"
       },
@@ -27,7 +27,7 @@
     {
       "registryType": "pypi",
       "identifier": "savvly-mcp-server",
-      "version": "1.0.42",
+      "version": "1.0.43",
       "transport": {
         "type": "stdio"
       },
@@ -36,7 +36,7 @@
     {
       "registryType": "nuget",
       "identifier": "Savvly.McpServer",
-      "version": "1.0.42",
+      "version": "1.0.43",
       "transport": {
         "type": "stdio"
       },
@@ -44,15 +44,15 @@
     },
     {
       "registryType": "oci",
-      "identifier": "ghcr.io/savvly/savvly-mcp-server:1.0.42",
+      "identifier": "ghcr.io/savvly/savvly-mcp-server:1.0.43",
       "transport": {
         "type": "stdio"
       }
     },
     {
       "registryType": "mcpb",
-      "identifier": "https://github.com/Savvly/savvly-mcp/releases/download/v1.0.42/savvly-mcp-server.mcpb",
-      "fileSha256": "5b63e3db3c35bfdf4a9ff746a1b7cc0ff3a0c7f77bfc363b686f767cd1b86b41",
+      "identifier": "https://github.com/Savvly/savvly-mcp/releases/download/v1.0.43/savvly-mcp-server.mcpb",
+      "fileSha256": "cdfefde3eab6b7278c1e2441bef6faa98685fbbe2b2134ecc4f5c276c72ac0ce",
       "transport": {
         "type": "stdio"
       }

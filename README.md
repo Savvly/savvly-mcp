@@ -7,9 +7,7 @@
 -->
 # Savvly MCP server — `com.savvly/savvly`
 
-MCP server for **Savvly Longevity Benefit**: product info, Savvly-vs-alternative
-comparisons, eligibility checks, an audience-tagged Q&A library, and retirement /
-lump-sum / monthly **projections** (with inline MCP Apps chart widgets).
+The Savvly MCP server lets financial advisors, planning tools, and AI agents query fund data, model projections, and compare against alternative retirement products directly, in real time, in any conversation, and without any manual lookup.
 
 Listed on the [MCP Registry](https://registry.modelcontextprotocol.io) as
 `com.savvly/savvly` and published to **five package types plus a hosted remote** — use
