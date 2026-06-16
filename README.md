@@ -56,6 +56,14 @@ Projection tools emit interactive MCP Apps chart widgets on hosts that support t
 - Website: https://savvly.com
 - Disclosures: https://www.savvly.com/disclosures
 
+## Privacy Policy
+
+Savvly's privacy policy: https://www.savvly.com/privacy-policy
+
+This MCP server is public and unauthenticated — it exposes Savvly product information, comparisons, eligibility, and illustrative projections, and requires no account or credentials. It collects **no personal information** and **no end-user identifier** (no client IP is captured; no user is identified).
+
+The hosted endpoint (`https://api.savvly.com/mcp`) records **anonymous usage analytics** via [MCPcat](https://mcpcat.io), a third-party processor, to improve the tools — which tools are called and their non-identifying numeric scenario inputs (e.g. age, contribution amount). Email, phone, SSN, and payment-card patterns are redacted from any text before it is sent. The local `npx @savvly/mcp-server` (stdio) sends **no** analytics.
+
 ## License
 
 Apache-2.0.
