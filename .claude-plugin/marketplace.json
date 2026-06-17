@@ -8,7 +8,7 @@
   "plugins": [
     {
       "name": "savvly",
-      "source": "./plugin",
+      "source": "./",
       "description": "Explore Savvly MCP: retirement projections, eligibility, comparisons, and FAQs for an SEC-registered fund that pairs full market upside with later-life longevity payouts.",
       "category": "finance",
       "homepage": "https://savvly.com",
