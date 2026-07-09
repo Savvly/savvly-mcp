@@ -2,7 +2,7 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "com.savvly/savvly",
   "description": "Savvly MCP: query fund data, model projections, and compare against alternative retirement products.",
-  "version": "1.0.75",
+  "version": "1.0.76",
   "repository": {
     "url": "https://github.com/Savvly/savvly-mcp",
     "source": "github"
@@ -18,7 +18,7 @@
     {
       "registryType": "npm",
       "identifier": "@savvly/mcp-server",
-      "version": "1.0.75",
+      "version": "1.0.76",
       "transport": {
         "type": "stdio"
       },
@@ -27,7 +27,7 @@
     {
       "registryType": "pypi",
       "identifier": "savvly-mcp-server",
-      "version": "1.0.75",
+      "version": "1.0.76",
       "transport": {
         "type": "stdio"
       },
@@ -36,7 +36,7 @@
     {
       "registryType": "nuget",
       "identifier": "Savvly.McpServer",
-      "version": "1.0.75",
+      "version": "1.0.76",
       "transport": {
         "type": "stdio"
       },
@@ -44,15 +44,15 @@
     },
     {
       "registryType": "oci",
-      "identifier": "ghcr.io/savvly/savvly-mcp-server:1.0.75",
+      "identifier": "ghcr.io/savvly/savvly-mcp-server:1.0.76",
       "transport": {
         "type": "stdio"
       }
     },
     {
       "registryType": "mcpb",
-      "identifier": "https://github.com/Savvly/savvly-mcp/releases/download/v1.0.75/savvly-mcp-server.mcpb",
-      "fileSha256": "ddea6f760a419a1abf4af6425d5a31b28eaff53de19b421ab26bb516ad5debde",
+      "identifier": "https://github.com/Savvly/savvly-mcp/releases/download/v1.0.76/savvly-mcp-server.mcpb",
+      "fileSha256": "993a8b9cd1474ffbbfa93066e22477668460380946b4be55c5d67dc53a5933ba",
       "transport": {
         "type": "stdio"
       }
