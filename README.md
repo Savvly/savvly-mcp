@@ -60,9 +60,19 @@ Projection tools emit interactive MCP Apps chart widgets on hosts that support t
 
 Savvly's privacy policy: https://www.savvly.com/privacy-policy
 
-This MCP server is public and unauthenticated — it exposes Savvly product information, comparisons, eligibility, and illustrative projections, and requires no account or credentials. It collects **no personal information** and **no end-user identifier** (no client IP is captured; no user is identified).
+This MCP server is public and unauthenticated — it exposes Savvly product information, comparisons, eligibility, and illustrative projections, and requires no account or credentials. It identifies no user. Its own logs record only a keyed hash of a caller's network address, and Savvly's edge (Azure Front Door) masks the address in its logs. Log rows written before that began (2026-10-11 for this server's logs, 2026-10-12 for the edge's) keep the address until they expire, 90 days after they were written.
 
-The hosted endpoint (`https://api.savvly.com/mcp`) records **anonymous usage analytics** via [AgentCat](https://agentcat.io) (formerly MCPcat), a third-party processor, to improve the tools — which tools are called and their non-identifying numeric scenario inputs (e.g. age, contribution amount). Email, phone, SSN, and payment-card patterns are redacted from any text before it is sent. The local `npx @savvly/mcp-server` (stdio) sends **no** analytics.
+The hosted endpoint (`https://api.savvly.com/mcp`) sends **no** call data to any third-party analytics service. For each call, Savvly's own logs record the tool, a keyed hash of its inputs, a keyed hash of the caller's network address, and the caller's User-Agent header.
+
+The installed packages (`npx @savvly/mcp-server`, the `.mcpb` bundle, the Docker image, `savvly-mcp-server` on PyPI and `Savvly.McpServer` on NuGet) keep no log of their own. They send Savvly a usage record for each tool call, in small batches, to `https://api.savvly.com/usage/v1`. A record holds only:
+
+- the tool's name;
+- whether the call succeeded, and for a failure a fixed reason code (such as `tool_arguments_refused` or `estimator_unreachable`);
+- how long the call took, in milliseconds;
+- the name your MCP host reports for itself (such as `claude-ai` or `cursor`);
+- the package's language and version.
+
+It never holds the tool's arguments, a hash of them, the result, an error's text, or anything else you or your AI assistant typed. Savvly's logs record each record like a hosted call: with a keyed hash of the sending network address and the User-Agent header, never the address itself. Sending happens in the background: it never slows or fails a tool call, and a record that cannot be sent is dropped. To turn it off, set `SAVVLY_TELEMETRY=0` or `DO_NOT_TRACK=1` in the server's own `env` settings in your MCP host (for Docker, `docker run -e SAVVLY_TELEMETRY=0`); in Claude Desktop's `.mcpb` extension, switch off **Send usage records** in the extension's settings. A variable set only in your shell often does not reach the server: MCP hosts start a stdio server with a few variables (such as `PATH` and `HOME`) plus its own `env` settings, and an app started from the Dock or Start menu never sees your shell's variables.
 
 ## License
 
